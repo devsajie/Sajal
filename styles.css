@@ -64,20 +64,6 @@ header .sajal_brand .name .logo-img {
     background-size: 100%;
 }
 
-.progress-container {
-    position: relative;
-    width: 100%;
-    height: 10px;
-    background: black;
-  }
-  
-  .progress-bar {
-    position: fixed;
-    height: 10px;
-    background: blue;
-    width: 0%;
-  }
-
 .work_place{
     display: flex;
     align-content: center;
@@ -99,25 +85,11 @@ header .sajal_brand .name .logo-img {
     letter-spacing: 8px;
 }
 
-@media screen and (max-width: 600px) {
-    .work_place {
-        margin: 100px;
-    }
-}
-
 .img-saj{
     margin-left: 50px;
     margin-top: 50vh;
     width: 400px;
     position: relative;
-}
-
-@media screen and (max-width: 600px) {
-    .img-saj{
-        background-size: 100%;
-        margin-right: 50px;
-        display: block;
-    }
 }
 
 .bold-text{
@@ -131,15 +103,6 @@ header .sajal_brand .name .logo-img {
     background: none;
 }
 
-@media screen and (max-width: 600px) {
-    .bold-text{
-    margin-left: 0px;
-    margin-top: -0px;
-    font-weight: 0;
-    font-size: 0px;
-    }
-}
-
 .hi{
     position: absolute;
     margin-left: 700px;
@@ -151,13 +114,6 @@ header .sajal_brand .name .logo-img {
     font-weight: 300;
 }
 
-@media screen and (max-width: 600px) {
-    .hi{
-        margin-left: 50px;
-        margin-top: 50px;
-    }
-}
-
 .about-text{
     position: absolute;
     margin-left: 700px;
@@ -167,16 +123,10 @@ header .sajal_brand .name .logo-img {
     display: block;
     font-family: "Poppins", Arial, sans-serif;
     background: none;
-    font-size: 25px;
+    font-size: 21px;
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 600px) {
-    .about-text{
-        margin-left: 50px;
-        margin-top: 150px;
-}
-}
 
 .fa {
     position: relative;
@@ -228,12 +178,4 @@ ul {
     column-gap: 100px;
     margin-left: 700px;
     margin-top: -200px;
-}
-
-@media screen and (max-width: 600px) {
-    ul{
-        position: absolute;
-        margin-top: 500px;
-        margin-left: 50px;
-    }
 }
